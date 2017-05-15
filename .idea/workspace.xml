@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d355a001-25ba-4828-95fb-8c9dd8d29161" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Regression/LinearRegression.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classifer/Logistic.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classifer/RandomForest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classifer/SVM.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Regression/SVM.py" />
-      <change type="DELETED" beforePath="D:\github\MachineLearning\logistic.py" afterPath="" />
-      <change type="DELETED" beforePath="D:\github\MachineLearning\svm.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\MachineLearning\Regression\LinearRegression.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\MachineLearning\Regression\SVM.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\MachineLearning\classifer\DecisionTree.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\MachineLearning\classifer\KNN.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\MachineLearning\classifer\Logistic.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\MachineLearning\classifer\NBayes.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\MachineLearning\classifer\RandomForest.py" afterPath="" />
+      <change type="DELETED" beforePath="D:\github\MachineLearning\classifer\SVM.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\github\MachineLearning\DecisionTree.py" afterPath="$PROJECT_DIR$/Classifer/DecisionTree.py" />
-      <change type="MOVED" beforePath="D:\github\MachineLearning\KNN.py" afterPath="$PROJECT_DIR$/Classifer/KNN.py" />
-      <change type="MOVED" beforePath="D:\github\MachineLearning\NBayes.py" afterPath="$PROJECT_DIR$/Classifer/NBayes.py" />
     </list>
     <ignored path="MachineLearning.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +28,7 @@
     <SUITE FILE_PATH="coverage/MachineLearning$KNN.coverage" NAME="KNN Coverage Results" MODIFIED="1494425655411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$RandomForest.coverage" NAME="RandomForest Coverage Results" MODIFIED="1494467866330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MachineLearning$logistic.coverage" NAME="logistic Coverage Results" MODIFIED="1494256667839" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MachineLearning$LinearRegression.coverage" NAME="LinearRegression Coverage Results" MODIFIED="1494838430296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Regression" />
+    <SUITE FILE_PATH="coverage/MachineLearning$LinearRegression.coverage" NAME="LinearRegression Coverage Results" MODIFIED="1494852226568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Regression" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -41,86 +39,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DecisionTree.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifer/DecisionTree.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KNN.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifer/KNN.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="77" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RandomForest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifer/RandomForest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SVM.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifer/SVM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinearRegression.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Regression/LinearRegression.py">
+      <file leaf-file-name="Regression.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Regression/Regression.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.77690804">
-              <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+              <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SVM.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Regression/SVM.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NBayes.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifer/NBayes.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Logistic.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classifer/Logistic.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -147,6 +71,7 @@
         <option value="$PROJECT_DIR$/NBayes.py" />
         <option value="$PROJECT_DIR$/Regression/SVM.py" />
         <option value="$PROJECT_DIR$/Regression/LinearRegression.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -229,7 +154,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Classifer" />
+              <option name="myItemId" value="Classification" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -343,7 +268,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="MachineLearning" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Regression/LinearRegression.py" />
+      <option name="SCRIPT_NAME" value="D:\github\MachineLearning\Regression\Regression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -607,7 +532,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Classifer/DecisionTree.py">
+    <entry file="file://$PROJECT_DIR$/Classification/DecisionTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -615,7 +540,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifer/Logistic.py">
+    <entry file="file://$PROJECT_DIR$/Classification/Logistic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
@@ -625,7 +550,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifer/DecisionTree.py">
+    <entry file="file://$PROJECT_DIR$/Classification/DecisionTree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -633,7 +558,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifer/Logistic.py">
+    <entry file="file://$PROJECT_DIR$/Classification/Logistic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
@@ -691,14 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifer/DecisionTree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Program Files (x86)/Anaconda3/Lib/site-packages/sklearn/linear_model/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.851272">
@@ -707,7 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifer/Logistic.py">
+    <entry file="file://$PROJECT_DIR$/Classification/Logistic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
@@ -717,17 +634,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifer/NBayes.py">
+    <entry file="file://$PROJECT_DIR$/Classification/SVM.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classifer/SVM.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.6320939">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
@@ -735,34 +644,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifer/KNN.py">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.16703297">
+            <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classification/NBayes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="77" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.37181997">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classifer/RandomForest.py">
+    <entry file="file://$PROJECT_DIR$/Classification/RandomForest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="2.1937377">
           <caret line="59" column="10" selection-start-line="59" selection-start-column="10" selection-end-line="59" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Regression/SVM.py">
+    <entry file="file://$PROJECT_DIR$/Classification/KNN.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.8923679">
+          <caret line="27" column="77" selection-start-line="27" selection-start-column="77" selection-end-line="27" selection-end-column="77" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Regression/LinearRegression.py">
+    <entry file="file://$PROJECT_DIR$/Classification/DecisionTree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0704501">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regression/Regression.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.77690804">
-          <caret line="64" column="29" selection-start-line="64" selection-start-column="29" selection-end-line="64" selection-end-column="29" />
+          <caret line="90" column="16" selection-start-line="90" selection-start-column="16" selection-end-line="90" selection-end-column="16" />
           <folding />
         </state>
       </provider>
