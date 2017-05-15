@@ -3,7 +3,6 @@ from sklearn.datasets import fetch_20newsgroups
 
 news = fetch_20newsgroups(subset='all')
 
-#print(news.data[0])
 
 from sklearn.cross_validation import train_test_split
 x_train, x_test, y_train, y_test = train_test_split(news.data, news.target, test_size=0.25, random_state=33)

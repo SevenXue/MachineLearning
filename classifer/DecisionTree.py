@@ -21,7 +21,8 @@ from sklearn.feature_extraction import DictVectorizer
 vec = DictVectorizer(sparse=False)
 
 x_train = vec.fit_transform(x_train.to_dict(orient='record'))
-print(vec.feature_names_)
+#print(vec.feature_names_)
+
 x_test = vec.fit_transform(x_test.to_dict(orient='record'))
 
 from sklearn.tree import DecisionTreeClassifier
