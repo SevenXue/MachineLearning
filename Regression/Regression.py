@@ -66,3 +66,26 @@ poly_svr = SVR(kernel='poly')
 poly_svr.fit(x_train, y_train)
 poly_svr_y_predict = poly_svr.predict(x_test)
 
+rbf_svr = SVR(kernel='rbf')
+rbf_svr.fit(x_train, y_train)
+rbf_svr_y_predict = rbf_svr.predict(x_test)
+
+from sklearn.metrics import r2_score, mean_absolute_error, mean_squared_error
+
+print('R-squared value of linear SVR is', r2_score(y_test, linear_svr_y_predict))
+print("The mean squared error of linear VSR is", mean_squared_error(ss_y.inverse_transform(y_test),
+                                                                    ss_y.inverse_transform(linear_svr_y_predict)))
+print('The mean absolute error of linear VSR is', mean_absolute_error(ss_y.inverse_transform(y_test),
+                                                                      ss_y.inverse_transform(linear_svr_y_predict)))
+
+print('R-squared value of poly SVR is', r2_score(y_test, poly_svr_y_predict))
+print("The mean squared error of poly VSR is", mean_squared_error(ss_y.inverse_transform(y_test),
+                                                                    ss_y.inverse_transform(poly_svr_y_predict)))
+print('The mean absolute error of poly VSR is', mean_absolute_error(ss_y.inverse_transform(y_test),
+                                                                      ss_y.inverse_transform(poly_svr_y_predict)))
+
+print('R-squared value of rbf SVR is', r2_score(y_test, rbf_svr_y_predict))
+print("The mean squared error of rbf VSR is", mean_squared_error(ss_y.inverse_transform(y_test),
+                                                                    ss_y.inverse_transform(rbf_svr_y_predict)))
+print('The mean absolute error of rbf VSR is', mean_absolute_error(ss_y.inverse_transform(y_test),
+                                                                      ss_y.inverse_transform(rbf_svr_y_predict)))
