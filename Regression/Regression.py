@@ -1,3 +1,7 @@
+# 线性回归，SVM核函数回归
+# 波士顿地区房价数据
+
+
 from sklearn.datasets import load_boston
 boston = load_boston()
 

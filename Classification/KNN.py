@@ -1,3 +1,7 @@
+# KNN算法
+# 鸢尾(Iris)数据集
+
+
 # ~数据预处理
 from sklearn.datasets import load_iris
 

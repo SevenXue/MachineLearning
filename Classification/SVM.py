@@ -1,3 +1,7 @@
+# 支持向量机
+# 手写数字数据集
+
+
 from sklearn.cross_validation import train_test_split
 
 from sklearn.datasets import load_digits

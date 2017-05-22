@@ -1,3 +1,7 @@
+# 随机森林
+# 使用titanic幸存者数据
+
+
 # ~数据预处理
 import pandas as pd
 titanic = pd.read_csv('http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.txt')

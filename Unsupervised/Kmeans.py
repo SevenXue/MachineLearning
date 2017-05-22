@@ -1,3 +1,7 @@
+# K均值算法
+# 手写体数字图像数据
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd

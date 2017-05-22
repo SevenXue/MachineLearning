@@ -1,3 +1,8 @@
+# 决策树
+# titanic幸存人数据集
+# 使用了DictVectorizer特征转换器
+
+
 # ~数据预处理
 import pandas as pd
 titanic = pd.read_csv('http://biostat.mc.vanderbilt.edu/wiki/pub/Main/DataSets/titanic.txt')

@@ -1,4 +1,7 @@
-# -*- coding:utf-8 -*-
+# 朴素贝叶斯分类
+# 20类新闻文本数据
+# 使用CountVectorizer用于文本特征向量转化
+
 from sklearn.datasets import fetch_20newsgroups
 
 news = fetch_20newsgroups(subset='all')
