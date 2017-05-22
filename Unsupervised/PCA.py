@@ -43,3 +43,22 @@ svc = LinearSVC()
 svc.fit(x_train, y_train)
 y_predict = svc.predict(x_test)
 
+estimator_shou = PCA(n_components=20)
+
+pca_x_train = estimator_shou.fit_transform(x_train)
+
+pca_x_test = estimator_shou.transform(x_test)
+
+pca_svc = LinearSVC()
+pca_svc.fit(pca_x_train, y_train)
+pca_y_predict = pca_svc.predict(pca_x_test)
+
+from sklearn.metrics import classification_report
+
+print(svc.score(x_test, y_test))
+
+print(classification_report(y_test, y_predict, target_names=np.arange(10).astype(str)))
+
+print(pca_svc.score(pca_x_test, y_test))
+
+print(classification_report(y_test, pca_y_predict, target_names=np.arange(10).astype(str)))
