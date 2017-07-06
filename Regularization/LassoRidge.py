@@ -1,4 +1,4 @@
-#~ L1范数正则化
+#~ L1,L2范数正则化,
 #~ 使用的数据为pizza价格
 
 x_train = [[6], [8], [10], [14], [18]]
@@ -7,6 +7,7 @@ y_train = [[7], [9], [13], [17.5], [18]]
 x_test = [[6], [8], [11], [16]]
 y_test = [[8], [12], [15], [18]]
 
+#~ 通过图形化，比较2次和4次多项式的差异
 from sklearn.linear_model import LinearRegression
 #导入多项式特征产生器
 from sklearn.preprocessing import PolynomialFeatures
@@ -30,6 +31,19 @@ x_test_poly4 = poly4.transform(x_test)
 print(regress_poly2.score(x_test_poly2, y_test))
 print(regress_poly4.score(x_test_poly4, y_test))
 
+
+#~ 使用不同的正则化方式
+#Lasso
+from sklearn.linear_model import Lasso
+lasso_poly4 = Lasso()
+lasso_poly4.fit(x_train_poly4, y_train)
+print(lasso_poly4.score(x_test_poly4, y_test))
+#Ridge
+from sklearn.linear_model import Ridge
+ridge_poly4 = Ridge()
+ridge_poly4.fit(x_train_poly4, y_train)
+print(ridge_poly4.score(x_test_poly4, y_test))
+
 #绘图
 import numpy as np
 xx = np.linspace(0, 26, 100)
@@ -51,8 +65,4 @@ plt.ylabel('Price of Pizza')
 plt.legend(handles=[plt2, plt4])
 plt.show()
 
-#lasso
-from sklearn.linear_model import Lasso
-lasso_poly4 = Lasso()
-lasso_poly4.fit(x_train_poly4, y_train)
-print(lasso_poly4.score(x_test_poly4, y_test))
+
