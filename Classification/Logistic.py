@@ -15,9 +15,10 @@ data = pd.read_csv('https://archive.ics.uci.edu/ml/machine-learning-databases/br
 data = data.replace(to_replace='?', value=np.nan)   #将？替换为np.nan
 data = data.dropna(how='any')   #丢弃带有缺失值的数据！
 
+
 x_train, x_test, y_train, y_test = train_test_split(data[column_names[1:10]], data[column_names[10]],
                                                      test_size=0.25, random_state=33)
-
+print(x_train.shape)
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.linear_model import SGDClassifier
@@ -48,7 +49,5 @@ print("Accuracy of LR Classifier:", lr.score(x_test, y_test))
 print(classification_report(y_test, lr_y_predict, target_names=['Begin', 'Malignant']))
 
 
-'''
 print(y_train.value_counts())
 print(y_test.value_counts())
-'''
