@@ -20,24 +20,17 @@ from sklearn.pipeline import Pipeline
 #使用Pipeline简化系统搭建流程，将文本抽取与分类器模型串联起来
 clf = Pipeline([('vect', TfidfVectorizer(stop_words='english', analyzer='word')), ('svc', SVC())])
 
-#2个超参数的个数分别是4，3，svc_gamma的参数共有
+#2个超参数的个数分别是4，3，svc_gamma的参数共有12
 parameters = {'svc__gamma':np.logspace(-2, 1, 4), 'svc__C':np.logspace(-1, 1, 3)}
 
 from sklearn.grid_search import GridSearchCV
 
 #将12组参数组合以及初始化的Pipline包括3折交叉验证的要求全部告知
-'''
-gs = GridSearchCV(clf, parameters, verbose=2, refit=True, cv=3)
-
-gs.fit(x_train, y_train)
-gs.best_score_, gs.best_params_
-
-print(gs.score(x_test, y_test))
-'''
 # 初始化配置并行网格搜索，n_jobs=-1代表使用该计算机全部的CPU
 if __name__ == "__main__":
     gs = GridSearchCV(clf, parameters, verbose=2, refit=True, cv=3, n_jobs=-1)
     gs.fit(x_train, y_train)
-    gs.best_params_, gs.best_score_
+    print(gs.best_params_)
+    print(gs.best_score_)
 
     print(gs.score(x_test, y_test))
